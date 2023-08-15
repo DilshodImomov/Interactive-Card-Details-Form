@@ -1,10 +1,10 @@
 import "./CardBack.css";
 
-const CardBack = () => {
+const CardBack = ({cardCvv}) => {
     return (
         <div className="cardBack">
             {/* <div className="cardContent"> */}
-                <p className="cvv">000</p>
+                <p className="cvv">{cardCvv}</p>
             {/* </div> */}
         </div>
     )
