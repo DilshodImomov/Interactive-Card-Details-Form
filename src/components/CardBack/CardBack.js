@@ -1,11 +1,13 @@
-import "./CardFront.css";
+import "./CardBack.css";
 
-const CardFront = () => {
+const CardBack = () => {
     return (
         <div className="cardBack">
-            
+            {/* <div className="cardContent"> */}
+                <p className="cvv">000</p>
+            {/* </div> */}
         </div>
     )
 }
 
-export default CardFront;
+export default CardBack;

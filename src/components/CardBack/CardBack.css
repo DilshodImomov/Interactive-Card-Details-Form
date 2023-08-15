@@ -2,4 +2,21 @@
     width: 447px;
     height: 245px;
     background: url("../../images/bg-card-back.png") no-repeat;
+    position: relative;
+    right: -100px;
+    margin-top: 30px;
+}
+
+.cardBack .cardContent {
+    height: 100%;
+    width: 100%;
+}
+
+
+.cardBack  p.cvv {
+    position: relative;
+    left: 80%;
+    top: 45%;
+    color: white;
+    letter-spacing: 2px;
 }
