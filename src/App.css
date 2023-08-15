@@ -2,4 +2,5 @@
   height: 100vh;
   background: url("./images/bg-main-desktop.png") no-repeat;
   background-size: auto;
+  display: flex;
 }
