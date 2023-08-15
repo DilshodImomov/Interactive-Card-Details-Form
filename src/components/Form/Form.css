@@ -1,0 +1,30 @@
+.cover {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.formBox {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 50%;
+}
+
+.dateCvv {
+    display: flex;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+}
+
+.cvv {
+    display: flex;
+    flex-direction: column;
+}
