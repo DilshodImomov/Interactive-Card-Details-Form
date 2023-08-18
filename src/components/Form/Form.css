@@ -55,7 +55,7 @@
 .date {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: fit-content;
 }
 
 .inputs {
@@ -105,3 +105,38 @@
 input.wrong {
     border: 1px solid red;
 }
+
+@media screen and (max-width: 1000px ) {
+    .formBox {
+        /* width: 300px; */
+        transform: scale(.9);
+        margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 730px ) {
+    .formBox {
+        /* width: 300px; */
+        transform: scale(.8);
+        margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 560px ) {
+    div.cover {
+        width: 100vw;
+        justify-content: center;
+        margin-top: -100px;
+    }
+    .formBox {
+      width: 400px;
+      transform: scale(1);
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 370px ) {
+    div.cover {
+        margin-top: -200px;
+    }
+    .formBox {
+        transform: scale(.9);
+    }
+  }

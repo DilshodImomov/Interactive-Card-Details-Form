@@ -68,7 +68,7 @@ function App() {
     const components = [<Form changeName={changeName} changeNumber={changeNumber} setCardNumber={setCardNumber} changeMonth={changeMonth} changeYear={changeYear} changeCvv={changeCvv} setComponent={setComponent} />,<Completed />];
 
     return (
-      <div className="background">
+      <div className="background" id='mobile-bg'>
       <Cards name={name} cardNumber={cardNumber} cardMonth={cardMonth} cardYear={cardYear} cardCvv={cardCvv}  />
       { components[component] } 
     </div>

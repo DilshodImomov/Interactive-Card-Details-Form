@@ -5,3 +5,61 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 1150px ) {
+    .container {
+        justify-content: flex-start;
+    }
+    .cards {
+        margin-left: 30px;
+    }
+  }
+@media screen and (max-width: 1000px ) {
+    .container {
+        justify-content: flex-start;
+    }
+    .cards {
+        transform: scale(.8);
+        margin: 0;
+    }
+  }
+  @media screen and (max-width: 860px ) {
+    .container {
+        justify-content: center;
+    }
+    .cards {
+        transform: scale(.7);
+        margin: 0;
+    }
+  }
+  @media screen and (max-width: 660px ) {
+    .container {
+        justify-content: center;
+    }
+    .cards {
+        transform: scale(.6);
+        margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 560px ) {
+    .container {
+      width: 100%;
+    }
+    .cards {
+        margin-top: 30px;
+        transform: scale(.9);
+        position: relative;
+    }
+  }
+  @media screen and (max-width: 480px ) {
+    .cards {
+        transform: scale(.7);
+        margin-top: -30px;
+    }
+  }
+  @media screen and (max-width: 370px ) {
+    .cards {
+        transform: scale(.6);
+        margin-top: -60px;
+    }
+  }
